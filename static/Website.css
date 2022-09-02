@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Amarante&family=Arbutus&family=Barlow+Condensed:wght@300&family=Courgette&family=Lacquer&family=Mochiy+Pop+P+One&family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+*{
+    margin : 0px;
+    padding : 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#logo{
+    margin:17px 25px;
+    padding-right: 130px;
+}
+
+#logo img{
+    width: 65px;
+    height: 50px;
+    margin: 3px 6px;
+}
+
+#navbar{
+    display: flex;
+    /* align-items: center; */
+    height: 71px;
+    justify-content: space-between;
+    position:sticky;
+    font-family: 'Source Sans Pro', sans-serif;
+    top:0px;
+    background-color: black;
+}
+
+
+
+#navbar ul{
+    display : flex;
+    font-size: 1.2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar ul li{
+    list-style: none;
+}
+
+#navbar ul li a{
+    display:block;
+    padding:14px 20px;
+    text-decoration: none;
+    color:bisque;
+    border-radius:20px;
+}
+
+#navbar ul li a:hover {
+    color:red;
+    font-size: 1.3rem;
+}
+
+
+#home{
+    display:flex;
+    /* background:url("/static/Image/dbg.webp") center/cover no-repeat ; */
+    height : 114px;
+    color:white;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    background-color:#1A4D2E ;
+}
+
+#home h3{
+    font-weight: bolder;  
+    font-size:2.0rem;
+    font-family: 'Sacramento', cursive;
+    margin-bottom: 15px;
+    color:white;
+}
+
+#home p{
+    font-weight: bolder;  
+    font-style: italic;
+    font-size: 1.6rem;
+    margin-top: 15px;
+    font-family: 'Courgette';
+    color:white;
+}
+
+#events{
+    background-color: #1A4D2E;
+    color:black;
+}
+
+#events h3{
+    display: flex;
+    justify-content: center;
+    font-size:1.8rem;
+    font-family: 'Mochiy Pop P One';
+}
+
+#image{
+    display:flex;
+    flex-direction: row;
+    margin:30px;
+    align-items: center;
+    justify-content: center;
+}
+
+#image .eventdes{
+    padding:10px;
+    margin:2px 30px;
+    background-color: #f9cae2;
+    border: 3px solid brown;
+    border-radius: 15px;
+    
+}
+
+#image .eventdes img{
+    height:200px;
+    width:260px;
+}
+
+#events .eventdes p{
+    font-size: 1.2rem;
+    font-family: 'Oswald', serif;
+}
+
+#ClassesInfo{
+    display:flex;
+    flex-direction:column;
+    background-color:#FF9F29;
+    margin-top: -30px;
+} 
+
+#ClassesInfo h2{
+    display: flex;
+    justify-content: center;
+    font-size:1.8rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+#ClassesInfo .info{
+    margin: 8px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#ClassesInfo .info h3, h4{
+    font-family: 'PT Serif';
+    font-size: 1.3rem;
+}
+
+#ClassesInfo .info p{
+    font-size:1.2rem;
+    font-family: 'Barlow Condensed';
+}
+
+.Contact-me{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height:100px;
+    background-color: #E9DAC1;
+}
+
+.Contact-me h2{
+    font-family: 'Oswald', sans-serif;
+    font-size:1.66rem;
+}
+.Contact-me .links{
+    display:flex;
+    flex-direction: row;
+}
+
+.Contact-me .links img{
+    width:30px;
+    margin:5px;
+}
+footer{
+    background-color: black;
+    color:white;
+    display:flex;
+    justify-content: center;
+}

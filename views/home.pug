@@ -1,0 +1,43 @@
+extends base.pug
+block scripts 
+    script(src = '/static/script.js')
+block style
+    style
+        include ../static/Website.css
+
+block content
+    section#home 
+        h3 WELCOME TO BEATBUSTERS DANCE ACADEMY
+        p Dance is the hidden language of the Soul
+    section#events 
+        h3 OUR EVENTS  
+        #image 
+            div.eventdes
+                p Annual Dance Event 2017
+                img(src="/static/Image/event1.jpg" alt="Event1")
+            div.eventdes
+                p Annual Dance Event 2018
+                img(src="/static/Image/event3.jpg" alt="Event2")  
+            div.eventdes
+                p Annual Dance Event 2019
+                img(src="/static/Image/event2.jpeg" alt="Event3")  
+    section#ClassesInfo 
+        h2 DETAILED INFORMATION
+        div.info 
+            h3 WORKING DAYS 
+            p Classes are conducted every week from Monday To Saturday
+        div.info 
+            h3 WORKING TIME
+            p Classes are open from Morning 9:00 AM - 7:00PM
+            h4 Our Schedule: 
+            p 9:00AM - 11:30AM : Hip-Hop
+            p 11:30AM - 1:00PM : FreeStyle 
+            p 1:00PM - 3:00PM : Lunch Time
+            p 3:00PM - 5:00PM : Classical 
+            p 5:00PM - 7:00PM : Jazz
+    section.Contact-me
+        h2 Get In Touch 
+        div.links 
+            img(src="/static/Image/gmail.png" alt="Gmail")
+            img(src="/static/Image/instagram.png" alt="Instagram")
+            img(src="/static/Image/linkedin.png" alt="Linkedin") 
